@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Tugas Artikel CaGaib: Model Hidden Markov"
+title: "Tugas CaGaib: Model Hidden Markov"
 date: 2017-05-27
 ---
 
