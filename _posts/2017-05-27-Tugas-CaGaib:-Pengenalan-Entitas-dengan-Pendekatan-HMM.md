@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Tugas Artikel CaGaib: Pengenalan Entitas dengan Pendekatan Model Hidden Markov
+title: Tugas CaGaib: Pengenalan Entitas dengan Pendekatan HMM
 date: 2017-05-27
 ---
 
