@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Tugas Artikel CaGaib: Pengenalan Entitas"
+title: "Tugas CaGaib: Pengenalan Entitas"
 date: 2017-05-27
 ---
 
