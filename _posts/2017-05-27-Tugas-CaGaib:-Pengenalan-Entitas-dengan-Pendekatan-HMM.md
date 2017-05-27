@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Tugas CaGaib: Pengenalan Entitas dengan Pendekatan HMM
+title: "Tugas CaGaib: Pengenalan Entitas dengan Pendekatan HMM"
 date: 2017-05-27
 ---
 
