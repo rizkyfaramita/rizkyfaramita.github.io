@@ -9,7 +9,6 @@ Dalam menyelesaikan permasalah pengenalan entitas dengan menggunakan pendekatan 
 2. Mengestimasi parameter HMM
 3. Melakukan testing
 
-
 Langkah 1: Menyiapkan Data
 Data mentah yang pertama kali didapatkan perlu diproses terlebih dahulu agar data tersebut dapat digunakan sebagai parameter-parameter pada HMM. Training yang dilakukan untuk mengubah data mentah tersebut menjadi data yang sesuai dengan kebutuhkan salah satunya dengan menerapkan langkah-langkah sebagai berikut: memisahkan setiap kata pada kalimat, memberikan penanda untuk setiap kata, mengklasifikasn kata yang serupa melalui pemberian tag-tag tertentu.
 
