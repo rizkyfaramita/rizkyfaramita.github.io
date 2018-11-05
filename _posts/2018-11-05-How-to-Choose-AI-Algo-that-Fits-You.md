@@ -6,15 +6,15 @@ date: 2018-11-05
 
 Hi, everyone! Shortly me and 4 of my friends are in a school project to help our friends finding the right AI algorithm based on their problems. But you can try too, let's get started!
 
-<a name="parameter1">Do you have any intended **labels**?</a>
+<a name="parameter1">Do you have any intended **labels**?</a><br>
 [Yes, then Supervised](#parameter2){: .btn1}
 [No, then Unsupervised](#parameter3){: .btn2}
 
-<a name="parameter2">Do you have any **xxx**?</a>
+<a name="parameter2">Do you have any **xxx**?</a><br>
 [Yes, then ...](#parameter2){: .btn1}
 [No, then ...](#parameter3){: .btn2}
 
-<a name="parameter3">Do you have any **xxx**?</a>
+<a name="parameter3">Do you have any **xxx**?</a><br>
 [Yes, then ...](#parameter2){: .btn1}
 [No, then ...](#parameter3){: .btn2}
 
