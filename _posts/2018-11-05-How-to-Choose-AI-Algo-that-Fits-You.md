@@ -11,10 +11,10 @@ Hi, everyone! Shortly me and 4 of my friends are in a school project to help our
 [Yes, then Supervised](#parameter3){: .btn2}
 
 <a name="parameter2">**Type** of problem?</a><br>
-[Dimentional Reduction, then PCA](#){: .btn1}
+[Dimentional Reduction, then PCA](){: .btn1}
 [Clustering, then define type of clustering](#parameter4){: .btn2}
 
 <a name="parameter3">**Type** of data?</a><br>
-[Continuous, then Regression](#parameter4){: .btn1}
-[Discrit, then Classification then defince modal existence](#parameter5){: .btn2}
+[Continuous, then Regression](#parameter5){: .btn1}
+[Discrete, then Classification](#parameter6){: .btn2}
 
