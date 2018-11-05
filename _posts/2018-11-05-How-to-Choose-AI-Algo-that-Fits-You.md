@@ -6,27 +6,15 @@ date: 2018-11-05
 
 Hi, everyone! Shortly me and 4 of my friends are in a school project to help our friends finding the right AI algorithm based on their problems. But you can try too, let's get started!
 
-<div id="nav" class="clearfix">
-    <a href="#parameter1">1</a>
-    <a href="#parameter2">2</a>
-    <a href="#parameter3">3</a>
-</div>
-
-Do you have any intended **labels**?
-
-<a name="parameter1"></a>
+<a name="parameter1">Do you have any intended **labels**?</a>
 [Yes, then Supervised](#parameter2){: .btn1}
 [No, then Unsupervised](#parameter3){: .btn2}
 
-Do you have any **xxx**?
-
-<a name="parameter2"></a>
+<a name="parameter2">Do you have any **xxx**?</a>
 [Yes, then ...](#parameter2){: .btn1}
 [No, then ...](#parameter3){: .btn2}
 
-Do you have any **xxx**?
-
-<a name="parameter3"></a>
+<a name="parameter3">Do you have any **xxx**?</a>
 [Yes, then ...](#parameter2){: .btn1}
 [No, then ...](#parameter3){: .btn2}
 
