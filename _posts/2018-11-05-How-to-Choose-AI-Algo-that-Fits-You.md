@@ -4,6 +4,8 @@ title: "How to Choose AI Algo that Fits You"
 date: 2018-11-05
 ---
 
-Hi, everyone! Shortly me and 4 of my friends are in a school project to help our friends finding the right AI algorithm based on their problems.
+Hi, everyone! Shortly me and 4 of my friends are in a school project to help our friends finding the right AI algorithm based on their problems. But you can try too, let's get started!
 
-[Click me](http://rizkyfaramita.github.io){: .btn}
+Do you have any intended labels?
+[Yes, then Supervised](https://rizkyfaramita.github.io/blog/2018/11/05/How-to-Choose-AI-Algo-that-Fits-You){: .btn}
+[No, then Unsupervised](https://rizkyfaramita.github.io/blog/2018/11/05/How-to-Choose-AI-Algo-that-Fits-You){: .btn}
