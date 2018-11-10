@@ -11,7 +11,7 @@ Hi, everyone! Shortly me and 4 of my friends are in a school project to help our
 [Yes, then Supervised](#parameter3){: .btn2}
 
 <a name="parameter2">**Type** of problem?</a><br>
-[Dimentional Reduction, then PCA](){: .btn1}
+[Dimentional Reduction, then PCA]{: .btn1}
 [Clustering, then define type of clustering](#parameter4){: .btn2}
 
 <a name="parameter3">**Type** of data?</a><br>
