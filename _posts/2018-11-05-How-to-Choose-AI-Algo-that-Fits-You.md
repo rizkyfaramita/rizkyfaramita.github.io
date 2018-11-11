@@ -10,13 +10,13 @@ Hi, everyone! Shortly me and 4 of my friends are in a school project to help our
 [ya, REINFORCEMENT](#parameter1){: .btn1}
 [tidak](#parameter2){: .btn2}
 
-<a name="parameter2">**ada label**</a><br>
+<a name="parameter2">**ada label?**</a><br>
 [tidak, unsupervised](#parameter3){: .btn1}
 [ya, supervised](#parameter6){: .btn2}
 
 <a name="parameter3">**jenis masalah?**</a><br>
 [dimentional reduction, PCA](#parameter3){: .btn1}
-[clustering](#parameter4){: btn_custom}
+[clustering](#parameter4){: .btn_custom}
 
 <a name="parameter4">**tipe clustering?**</a><br>
 [soft](#parameter5){: .btn1}
