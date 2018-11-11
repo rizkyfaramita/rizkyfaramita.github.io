@@ -7,7 +7,7 @@ date: 2018-11-05
 Hi, everyone! Shortly me and 4 of my friends are in a school project to help our friends finding the right AI algorithm based on their problems. But you can try too, let's get started!
 
 <a name="parameter1">**ada reward**?</a><br>
-[ya, reinforcement](#parameter1){: .btn1}
+[ya, REINFORCEMENT](#parameter1){: .btn1}
 [tidak](#parameter2){: .btn2}
 
 <a name="parameter2">**ada label**</a><br>
@@ -27,7 +27,7 @@ Hi, everyone! Shortly me and 4 of my friends are in a school project to help our
 [membership model, FCM](#parameter5){: .btn2}
 
 <a name="parameter6">**tipe data?**</a><br>
-[kontinyu, regresi](#parameter7), GMM{: .btn1}
+[kontinyu, regresi](#parameter7){: .btn1}
 [diskrit, klasifikasi](#parameter8){: .btn2}
 
 <a name="parameter7">**pendekatan?**</a><br>
@@ -39,5 +39,5 @@ Hi, everyone! Shortly me and 4 of my friends are in a school project to help our
 [ya, NAIVE BAYES](#parameter8){: .btn2}
 
 <a name="parameter9">**kompleksitas waktu?**</a><br>
-[tinggi, DTL]{: .btn1}
-[rendah, KNN]{: .btn2}
+[tinggi, DTL](#parameter9){: .btn1}
+[rendah, KNN](#parameter9){: .btn2}
