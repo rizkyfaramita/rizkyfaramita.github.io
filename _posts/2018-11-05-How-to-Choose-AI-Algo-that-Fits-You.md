@@ -16,14 +16,14 @@ Hi, everyone! Shortly me and 4 of my friends are in a school project to help our
 
 <a name="parameter3">**jenis masalah?**</a><br>
 [dimentional reduction, PCA](#parameter3){: .btn1}
-[clustering](#parameter4){: .btn2}
+[clustering                ](#parameter4){: .btn2}
 
 <a name="parameter4">**tipe clustering?**</a><br>
 [soft](#parameter5){: .btn1}
 [hard, K-MEANS](#parameter4){: .btn2}
 
 <a name="parameter5">**ada model?**</a><br>
-[generation model, GMM](parameter5){: .btn1}
+[generation model,  GMM](#parameter5){: .btn1}
 [membership model, FCM](#parameter5){: .btn2}
 
 <a name="parameter6">**tipe data?**</a><br>
