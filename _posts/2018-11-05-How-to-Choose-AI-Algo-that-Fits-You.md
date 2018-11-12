@@ -43,28 +43,28 @@ Hi, everyone! Shortly me and 4 of my friends are in a school project to help our
 [rendah](#knn){: .btn2}
 
 <a name="reinforcement">**Algoritma preferensi:**</a><br>
-[Reinforcement](){: .btn_final}
+[Reinforcement](#){: .btn_final}
 
 <a name="kmeans">**Algoritma preferensi:**</a><br>
-[K-Means](){: .btn_final}
+[K-Means](#){: .btn_final}
 
 <a name="kmeans">**Algoritma preferensi:**</a><br>
-[GMM](){: .btn_final}
+[GMM](#){: .btn_final}
 
 <a name="logistik">**Algoritma preferensi:**</a><br>
-[Regresi Logistik](){: .btn_final}
+[Regresi Logistik](#){: .btn_final}
 
 <a name="linear">**Algoritma preferensi:**</a><br>
-[Regresi Linear](){: .btn_final}
+[Regresi Linear](#){: .btn_final}
 
 <a name="naive">**Algoritma preferensi:**</a><br>
-[Naive Bayes](){: .btn_final}
+[Naive Bayes](#){: .btn_final}
 
 <a name="linear">**Algoritma preferensi:**</a><br>
-[Regresi Linear](){: .btn_final}
+[Regresi Linear](#){: .btn_final}
 
 <a name="dtl">**Algoritma preferensi:**</a><br>
-[Regresi Linear](){: .btn_final}
+[Regresi Linear](#){: .btn_final}
 
 <a name="knn">**Algoritma preferensi:**</a><br>
-[Regresi Linear](){: .btn_final}
+[Regresi Linear](#){: .btn_final}
