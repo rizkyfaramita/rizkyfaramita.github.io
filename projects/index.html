@@ -71,12 +71,13 @@ title: Projects | Rizky Faramita Official Website
   <h1>My Projects</h1>
   <p>Thanks for your interest! Feel free to review my portfolio <a href="https://rizkyfaramita.myportfolio.com">here</a>.</p>
   <p>Also, something big is coming . . .</p>
+</div>
 
 <script src="https://d3js.org/d3.v3.js"></script>
 <script>
 
-var margin = {top: 20, right: 200, bottom: 100, left: 50},
-    margin2 = { top: 430, right: 10, bottom: 20, left: 40 },
+var margin = {top: 20, right: 200, bottom: 200, left: 50},
+    margin2 = { top: 430, right: 10, bottom: 40, left: 40 },
     width = 960 - margin.left - margin.right,
     height = 500 - margin.top - margin.bottom,
     height2 = 500 - margin2.top - margin2.bottom;
@@ -127,8 +128,8 @@ var svg = d3.select("body").append("svg")
 svg.append("rect")
     .attr("width", width)
     .attr("height", height)                                    
-    .attr("x", 0) 
-    .attr("y", 0)
+    .attr("x", width/3) 
+    .attr("y", height/3)
     .attr("id", "mouse-tracker")
     .style("fill", "white"); 
 
@@ -427,4 +428,3 @@ d3.tsv("data.tsv", function(error, data) {
   }
 
 </script>
-</div>
