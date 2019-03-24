@@ -19,7 +19,7 @@ title: Projects | Rizky Faramita Official Website
 
 .line {
   fill: none;
-  stroke-width: 1.5px;
+  stroke-width: 2px;
 }
 
 .legend-box {
@@ -77,7 +77,7 @@ title: Projects | Rizky Faramita Official Website
 <script>
 
 var margin = {top: 20, right: 200, bottom: 200, left: 50},
-    margin2 = { top: 430, right: 10, bottom: 40, left: 40 },
+    margin2 = { top: 430, right: 10, bottom: 20, left: 40 },
     width = 960 - margin.left - margin.right,
     height = 500 - margin.top - margin.bottom,
     height2 = 500 - margin2.top - margin2.bottom;
@@ -128,8 +128,8 @@ var svg = d3.select("body").append("svg")
 svg.append("rect")
     .attr("width", width)
     .attr("height", height)                                    
-    .attr("x", width/3) 
-    .attr("y", height/3)
+    .attr("x", 200) 
+    .attr("y", 200)
     .attr("id", "mouse-tracker")
     .style("fill", "white"); 
 
