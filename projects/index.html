@@ -76,9 +76,9 @@ title: Projects | Rizky Faramita Official Website
 <script src="https://d3js.org/d3.v3.js"></script>
 <script>
 
-var margin = {top: 20, right: 200, bottom: 100, left: 50},
-    margin2 = { top: 430, right: 10, bottom: 20, left: 40 },
-    width = 960 - margin.left - margin.right,
+var margin = {top: 20, right: 200, bottom: 100, left: 400},
+    margin2 = { top: 430, right: 0, bottom: 20, left: 400 },
+    width = 1180 - margin.left - margin.right,
     height = 500 - margin.top - margin.bottom,
     height2 = 500 - margin2.top - margin2.bottom;
 
@@ -95,8 +95,7 @@ var yScale = d3.scale.linear()
     .range([height, 0]);
 
 // 40 Custom DDV colors 
-var color = d3.scale.ordinal().range(["#48A36D",  "#56AE7C",  "#64B98C", "#72C39B", "#80CEAA", "#80CCB3", "#7FC9BD", "#7FC7C6", "#7EC4CF", "#7FBBCF", "#7FB1CF", "#80A8CE", "#809ECE", "#8897CE", "#8F90CD", "#9788CD", "#9E81CC", "#AA81C5", "#B681BE", "#C280B7", "#CE80B0", "#D3779F", "#D76D8F", "#DC647E", "#E05A6D", "#E16167", "#E26962", "#E2705C", "#E37756", "#E38457", "#E39158", "#E29D58", "#E2AA59", "#E0B15B", "#DFB95C", "#DDC05E", "#DBC75F", "#E3CF6D", "#EAD67C", "#F2DE8A"]);  
-
+var color = d3.scale.ordinal().range(["#48A36D",  "#56AE7C",  "#64B98C", "#72C39B", "#80CEAA", "#80CCB3", "#7FC9BD", "#7FC7C6", "#7EC4CF", "#7FBBCF", "#7FB1CF", "#80A8CE", "#809ECE", "#8897CE", "#8F90CD", "#9788CD", "#9E81CC", "#AA81C5", "#B681BE", "#C280B7", "#CE80B0", "#D3779F", "#D76D8F", "#DC647E", "#E05A6D", "#E16167", "#E26962", "#E2705C", "#E37756", "#E38457", "#E39158", "#E29D58", "#E2AA59", "#E0B15B", "#DFB95C", "#DDC05E", "#DBC75F", "#E3CF6D", "#EAD67C", "#F2DE8A"]);
 
 var xAxis = d3.svg.axis()
     .scale(xScale)
