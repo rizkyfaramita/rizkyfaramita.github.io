@@ -1,4 +1,5 @@
 ---
+layout: default
 title: Projects | Rizky Faramita Official Website
 ---
 <style>
@@ -66,7 +67,11 @@ title: Projects | Rizky Faramita Official Website
 
   gtag('config', 'UA-132808578-1');
 </script>
-<div class="blurb"></div>
+<div class="blurb">
+  <h1>My Projects</h1>
+  <p>Thanks for your interest! Feel free to review my portfolio <a href="https://rizkyfaramita.myportfolio.com">here</a>.</p>
+  <p>Also, something big is coming . . .</p>
+</div>
 
 <script src="https://d3js.org/d3.v3.js"></script>
 <script>
@@ -207,10 +212,10 @@ d3.tsv("data.tsv", function(error, data) {
   //end slider part-----------------------------------------------------------------------------------
 
   // draw line graph
-  // svg.append("g")
-  //     .attr("class", "x axis")
-  //     .attr("transform", "translate(0," + height + ")")
-  //     .call(xAxis);
+  svg.append("g")
+      .attr("class", "x axis")
+      .attr("transform", "translate(0," + height + ")")
+      .call(xAxis);
 
   svg.append("g")
       .attr("class", "y axis")
