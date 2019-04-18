@@ -69,7 +69,7 @@ title: Projects | Rizky Faramita Official Website
 <div class="blurb" style="margin-top:2rem; font-size: 3rem">
   <center>
     The Oscar Boost
-    <h6 style="margin-top:3rem; margin-bottom:2rem; font-size: 1.5rem">Is this the new marketing?</h6>
+    <h6 style="margin-top:3rem; margin-bottom:2rem; font-size: 1.25rem; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif">Is this the new marketing?</h6>
   </center>
   
 </div>
@@ -189,6 +189,7 @@ d3.tsv("data.tsv", function(error, data) {
   context.append("g") // Create brushing xAxis
       .attr("class", "x axis1")
       .attr("transform", "translate(0," + height2 + ")")
+      .style("font-family", "'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif")
       .call(xAxis2);
 
   var contextArea = d3.svg.area() // Set attributes for area chart in brushing context graph
@@ -220,6 +221,7 @@ d3.tsv("data.tsv", function(error, data) {
 
   svg.append("g")
       .attr("class", "y axis")
+      .style("font-family", "'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif")
       .call(yAxis)
     .append("text")
       .attr("transform", "rotate(-90)")
@@ -227,12 +229,14 @@ d3.tsv("data.tsv", function(error, data) {
       .attr("x", -10)
       .attr("dy", "1.0em")
       .style("text-anchor", "end")
+      .style("font-family", "Arial, sans-serif")
       .text("Gross (million $)");
 
   var issue = svg.selectAll(".issue")
       .data(categories) // Select nested data and append to new svg group elements
     .enter().append("g")
-      .attr("class", "issue");   
+      .attr("class", "issue")
+      .style("font-family", "'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif");   
 
   issue.append("path")
       .attr("class", "line")
@@ -306,7 +310,8 @@ d3.tsv("data.tsv", function(error, data) {
       
   issue.append("text")
       .attr("x", width + (margin.right/3)) 
-      .attr("y", function (d, i) { return (legendSpace)+i*(legendSpace); })  // (return (11.25/2 =) 5.625) + i * (5.625) 
+      .attr("y", function (d, i) { return (legendSpace)+i*(legendSpace); })  // (return (11.25/2 =) 5.625) + i * (5.625)
+      .style("font-family", "Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif")
       .text(function(d) { return d.name; }); 
 
   // Hover line 
