@@ -210,7 +210,7 @@ d3.tsv("data.tsv", function(error, data) {
     .call(brush)
     .selectAll("rect")
     .attr("height", height2) // Make brush rects same height 
-    .attr("fill", "#F1F1D0")
+    .attr("fill", "#F1F1A0")
     .attr("style", "visibility: initial; cursor: crosshair;");  
   //end slider part-----------------------------------------------------------------------------------
 
@@ -260,7 +260,7 @@ d3.tsv("data.tsv", function(error, data) {
       .attr("x", width + (margin.right/3) - 15) 
       .attr("y", function (d, i) { return (legendSpace)+i*(legendSpace) - 8; })  // spacing
       .attr("fill",function(d) {
-        return d.visible ? color(d.name) : "#F1F1A0"; // If array key "visible" = true then color rect, if not then make it grey 
+        return d.visible ? color(d.name) : "#F1F1C0"; // If array key "visible" = true then color rect, if not then make it coloured 
       })
       .attr("class", "legend-box")
 
@@ -282,7 +282,7 @@ d3.tsv("data.tsv", function(error, data) {
         issue.select("rect")
           .transition()
           .attr("fill", function(d) {
-          return d.visible ? color(d.name) : "#F1F1A0";
+          return d.visible ? color(d.name) : "#F1F1C0";
         });
       })
 
@@ -302,7 +302,7 @@ d3.tsv("data.tsv", function(error, data) {
         d3.select(this)
           .transition()
           .attr("fill", function(d) {
-          return d.visible ? color(d.name) : "#F1F1A0";});
+          return d.visible ? color(d.name) : "#F1F1C0";});
 
         d3.select("#line-" + d.name.replace(" ", "").replace("/", ""))
           .transition()
