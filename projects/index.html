@@ -260,7 +260,7 @@ d3.tsv("data.tsv", function(error, data) {
       .attr("x", width + (margin.right/3) - 15) 
       .attr("y", function (d, i) { return (legendSpace)+i*(legendSpace) - 8; })  // spacing
       .attr("fill",function(d) {
-        return d.visible ? color(d.name) : "#F1F1C0"; // If array key "visible" = true then color rect, if not then make it coloured 
+        return d.visible ? color(d.name) : "#F5F6F6"; // If array key "visible" = true then color rect, if not then make it coloured 
       })
       .attr("class", "legend-box")
 
