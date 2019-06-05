@@ -1,5 +1,4 @@
 ## Rizky Faramita's GitHub Page
 
-Deploy locally:
-` bundle exec jekyll serve
+bundle exec jekyll serve
 
