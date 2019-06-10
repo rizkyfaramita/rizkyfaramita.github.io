@@ -2,5 +2,7 @@
 
 Current development:
 
+```
 bundle exec jekyll serve
+```
 
