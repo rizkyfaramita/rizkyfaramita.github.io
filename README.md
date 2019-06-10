@@ -1,6 +1,6 @@
 ## Rizky Faramita's GitHub Page
 
-current development:
+Current development:
 
 bundle exec jekyll serve
 
