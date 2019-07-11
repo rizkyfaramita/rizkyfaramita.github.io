@@ -14,3 +14,8 @@ Revamping plan:
 3. Blog (intro, post 1, post 2, post 3, footer)
 ```
 
+Action plan:
+```
+1. Find best template
+```
+
