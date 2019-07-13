@@ -18,5 +18,6 @@ Action plan:
 ```
 1. Find best template
 2. Deploy template
+3. Modify template
 ```
 
