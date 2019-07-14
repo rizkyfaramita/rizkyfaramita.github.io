@@ -16,7 +16,7 @@ Revamping plan:
 
 Action plan:
 ```
-1. Find best template
+1. Find 3 best template
 2. Deploy template
 3. Modify template
 ```
