@@ -16,7 +16,7 @@ Revamping plan:
 
 Action plan:
 ```
-1. Find 3 best templates
+1. Find 3 best templates (deadline mid of august)
 2. Deploy all templates
 3. Modify best template
 ```
