@@ -18,6 +18,6 @@ Action plan:
 ```
 1. Find 3 best templates (deadline mid of august)
 2. Deploy all templates (deadline end of august)
-3. Modify best template
+3. Modify best template (dedaline end of september)
 ```
 
