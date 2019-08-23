@@ -16,8 +16,8 @@ Revamping plan:
 
 Action plan:
 ```
-1. Find 3 best ruby templates (deadline end of august)
-2. Deploy all templates (deadline end of august)
-3. Modify best template (dedaline end of september)
+1. Find 3 best ruby templates (deadline end of september)
+2. Deploy all templates (deadline end of october)
+3. Modify best template (dedaline end of november)
 ```
 
