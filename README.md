@@ -9,7 +9,12 @@ bundle exec jekyll serve
 Revamping plan:
 
 ```
-1. Home (intro quote, about, accomplishment per year visualized in graph, languages, contact me, footer)
+1. intro quote
+2. about
+3. accomplishment per year visualized in graph
+4. programming languages
+5. contact me
+6. footer
 ```
 
 Action plan:
