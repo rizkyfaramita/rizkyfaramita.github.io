@@ -10,18 +10,33 @@
 	<link rel="icon" href="/flower.png" />
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+	<ul>
+	  <a href="/">Home</a>
+	  <a href="/about">About</a>
+	  <a href="/projects">Projects</a>
+	</ul>
   </head>
   <body>
+	  
     <section class="page-header">
 
     </section>
-
+    <section class="main-content">
     <section>
       {{ content }}
+      <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
 
     </section>
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     
-  </body>	      
+  </body>
+	
+<footer class="main-content site-footer" style="font-size:120%;position: fixed;width: 100%;bottom: 0;left: 15%;">
+	<center>
+		<span  class="site-footer-credits">
+			Copyright © 2022 by Rizky Faramita
+		</span>
+	</center>
+</footer>	
 </html>
